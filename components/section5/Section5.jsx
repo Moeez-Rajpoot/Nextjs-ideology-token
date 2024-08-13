@@ -14,7 +14,7 @@ export default function Section5() {
   const [card3, setCard3] = useState(false);
   const [card4, setCard4] = useState(false);
   return (
-    <div className="h-[200vh] lg:h-screen w-screen bg-gradient-to-t from-[#01091c] via-[#12032c] to-[#01091c]   ">
+    <div className="h-full lg:h-screen w-screen bg-gradient-to-t from-[#01091c] via-[#12032c] to-[#01091c]   ">
       <div className="w-screen h-fit flex flex-col items-center">
         <p
           className={`w-full text-[#829fe1] text-md sm:text-xl text-center ${lato.className}`}
