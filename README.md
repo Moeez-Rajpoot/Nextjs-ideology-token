@@ -21,16 +21,6 @@ Check out the live site [here](https://nextjs-ideology-token.vercel.app/).
 ![Image3](https://github.com/Moeez-Rajpoot/Nextjs-ideology-token/blob/main/images/wimage3.png)
 
 
-## Overview
-
-This project is a movie site built with Next.js. It showcases various movies with details and images.
-
-## Features
-
-- Movie listings with images
-- Detailed movie pages
-- Responsive design
-
 ## Getting Started
 
 To get started with the project, clone the repository and install the dependencies:
