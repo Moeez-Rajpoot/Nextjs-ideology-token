@@ -15,7 +15,7 @@ Check out the live site [here](https://nextjs-ideology-token.vercel.app/).
 ![Image9](https://github.com/Moeez-Rajpoot/Nextjs-ideology-token/blob/main/images/image9.png)
 ![Image10](https://github.com/Moeez-Rajpoot/Nextjs-ideology-token/blob/main/images/image10.png)
 
-## WorkasPro Page
+## WorkAsPro Page
 ![Image1](https://github.com/Moeez-Rajpoot/Nextjs-ideology-token/blob/main/images/wimage1.png)
 ![Image2](https://github.com/Moeez-Rajpoot/Nextjs-ideology-token/blob/main/images/wimage2.png)
 ![Image3](https://github.com/Moeez-Rajpoot/Nextjs-ideology-token/blob/main/images/wimage3.png)
