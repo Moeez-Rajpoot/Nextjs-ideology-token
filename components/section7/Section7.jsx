@@ -13,7 +13,7 @@ import Animation from "../../public/assets/Animation.svg";
 
 export default function Section7() {
   return (
-    <div className="h-fit lg:h-[130vh] pb-10 relative">
+    <div className="h-fit bg-[#01091c] lg:h-[130vh] pb-10 relative">
       <div className="absolute w-full h-full top-0 left-0 z-0 outline-none border-none">
         <Image
           className="object-top w-full h-full blur-md"
