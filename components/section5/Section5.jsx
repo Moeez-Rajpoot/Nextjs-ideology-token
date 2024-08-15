@@ -14,7 +14,7 @@ export default function Section5() {
   const [card3, setCard3] = useState(false);
   const [card4, setCard4] = useState(false);
   return (
-    <div className="h-[200vh] lg:h-screen w-screen bg-gradient-to-t from-[#01091c] via-[#12032c] to-[#01091c]   ">
+    <div className="h-fit lg:h-screen w-screen bg-gradient-to-t from-[#01091c] via-[#12032c] to-[#01091c]   ">
       <div className="w-screen h-fit flex flex-col items-center">
         <p
           className={`w-full text-[#829fe1] text-md sm:text-xl text-center ${lato.className}`}
@@ -33,7 +33,7 @@ export default function Section5() {
         <Image
           src={ball}
           alt="Vector ball"
-          className="h-[400px] w-full flex justify-center mr-32 mt-32 blur-sm"
+          className="hidden h-[400px] w-full sm:flex justify-center mr-32 mt-32 blur-sm"
         ></Image>
 
         <h2
@@ -43,7 +43,7 @@ export default function Section5() {
         </h2>
 
         {/* Cards Section */}
-        <div className="absolute -top-[22%] left-[10%]  w-[80%]  grid grid-cols-1 lg:grid-cols-2 gap-x-64 gap-y-10">
+        <div className="relative mx-auto mt-2 sm:absolute sm:-top-[22%] sm:left-[10%]  w-[80%]  grid grid-cols-1 lg:grid-cols-2 gap-x-64 gap-y-10">
           {/* Card 1 */}
           <div
             onMouseEnter={() => {

@@ -9,7 +9,7 @@ const poppins = Poppins({ weight: "300", subsets: ["latin"] });
 export default function Section9() {
   const [input1, setInput1] = useState("Your email");
   return (
-    <div className="h-screen flex flex-col lg:flex-row justify-center items-center lg:h-[62vh] bg-[#020b1e]">
+    <div className="h-fit flex flex-col lg:flex-row justify-center items-center lg:h-[62vh] bg-[#020b1e]">
       <div className="relative  mt-5  lg:mt-28 w-[90%] lg:w-[80%] rounded-tr-[2.5rem] rounded-tl-[2.5rem] bg-[#030e26]  lg:h-80 overflow-hidden">
         <div className="h-fit lg:h-56 w-[53%] mt-9 mx-auto lg:ml-10">
           <h1

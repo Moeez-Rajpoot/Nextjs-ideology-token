@@ -36,16 +36,16 @@ export default function Section6() {
         {/* Card 1 */}
         <div className="flex mt-14 ">
           <div id="image">
-            <Image src={done} alt="Done" className="h-10 w-16"></Image>
+            <Image src={done} alt="Done" className="hidden sm:block h-10 w-16"></Image>
           </div>
           <div id="section6content" className="lg:ml-2">
             <h1
-              className={`${spaceGrotesk.className} -ml-5 lg:-ml-0  text-[24px] -mt-2 font-semibold text-[#7F9ED0]`}
+              className={`${spaceGrotesk.className}   text-[24px] -mt-2 font-semibold text-[#7F9ED0]`}
             >
               Layer-2 Chain Integrations
             </h1>
             <p
-              className={`${poppins.className} text-sm mt-2 ml-4 lg:ml-0 pr-10 text-[#7F9ED0]`}
+              className={`${poppins.className} text-sm mt-2 text-center lg:text-start px-6 lg:px-0 lg:pr-6 text-[#7F9ED0]`}
             >
               Provides enhanced speed and efficiency with layer-2 solutions for
               scalable and cost-effective blockchain operations
@@ -56,16 +56,16 @@ export default function Section6() {
         {/* Card 2 */}
         <div className="flex mt-14 ">
           <div id="image">
-            <Image src={done} alt="Done" className="h-10 w-16"></Image>
+            <Image src={done} alt="Done" className="hidden sm:block h-10 w-16"></Image>
           </div>
           <div id="section6content" className="lg:ml-2">
             <h1
-              className={`${spaceGrotesk.className} text-[24px] -ml-5 lg:-ml-0 -mt-2 font-semibold text-[#7F9ED0]`}
+              className={`${spaceGrotesk.className} text-[24px]  -mt-2 font-semibold text-[#7F9ED0]`}
             >
               Cross-Chain Compatibility
             </h1>
             <p
-              className={`${poppins.className} text-sm mt-2 ml-3 lg:ml-0 pr-10 text-[#7F9ED0]`}
+              className={`${poppins.className} text-sm mt-2 text-center lg:text-start px-6 lg:px-0 lg:pr-6 text-[#7F9ED0]`}
             >
               Enables seamless interoperability between different blockchain
               networks, allowing smooth transactions across chains.
@@ -76,16 +76,16 @@ export default function Section6() {
         {/* Card 3 */}
         <div className="flex mt-10 lg:mt-0 ">
           <div id="image">
-            <Image src={done} alt="Done" className="h-10 w-16"></Image>
+            <Image src={done} alt="Done" className="hidden sm:block h-10 w-16"></Image>
           </div>
           <div id="section6content" className="lg:ml-1">
             <h1
-              className={`${spaceGrotesk.className} text-[24px] -ml-5 lg:-ml-0 -mt-2 font-semibold text-[#7F9ED0]`}
+              className={`${spaceGrotesk.className} text-[24px]  -mt-2 font-semibold text-[#7F9ED0]`}
             >
               DeFi Access
             </h1>
             <p
-              className={`${poppins.className} text-sm ml-3 lg:ml-0 mt-2 pr-10 text-[#7F9ED0]`}
+              className={`${poppins.className} text-sm  text-center lg:text-start px-6 lg:px-0 lg:pr-6 text-[#7F9ED0]`}
             >
               Offers users opportunities in decentralized finance, such as
               lending and borrowing, directly on the network.
@@ -96,16 +96,16 @@ export default function Section6() {
         {/* Card 4 */}
         <div className="flex mt-10  lg:mt-0">
           <div id="image">
-            <Image src={done} alt="Done" className="h-10 w-16"></Image>
+            <Image src={done} alt="Done" className="hidden sm:block h-10 w-16"></Image>
           </div>
           <div id="section6content" className="ml-0">
             <h1
-              className={`${spaceGrotesk.className} text-[24px] px-4 lg:px-0 -ml-5 lg:-ml-0 -mt-2 font-semibold text-[#7F9ED0]`}
+              className={`${spaceGrotesk.className} text-[24px] px-4 lg:px-0 -mt-2 font-semibold text-[#7F9ED0]`}
             >
               Stablecoin Availability
             </h1>
             <p
-              className={`${poppins.className} text-sm ml-53 lg:ml-0 mt-2 pr-10 text-[#7F9ED0]`}
+              className={`${poppins.className} text-sm ml-53 text-center lg:text-start px-6 lg:px-0 lg:pr-6 text-[#7F9ED0]`}
             >
               Supports stablecoins for transactions, offering a reliable and
               stable form of digital currency.
@@ -116,16 +116,16 @@ export default function Section6() {
         {/* Card 5 */}
         <div className="flex mt-10 lg:mt-0 ">
           <div id="image">
-            <Image src={done} alt="Done" className="h-10 w-16"></Image>
+            <Image src={done} alt="Done" className="hidden sm:block h-10 w-16"></Image>
           </div>
           <div id="section6content" className="ml-0">
             <h1
-              className={`${spaceGrotesk.className} text-[24px] -ml-5 px-4 lg:px-0 lg:-ml-0 -mt-2 font-semibold text-[#7F9ED0]`}
+              className={`${spaceGrotesk.className} text-[24px]  px-4 lg:px-0  -mt-2 font-semibold text-[#7F9ED0]`}
             >
               Application Rewards and Redemption
             </h1>
             <p
-              className={`${poppins.className} text-sm ml-3 lg:ml-0 mt-2 pr-10 text-[#7F9ED0]`}
+              className={`${poppins.className} text-sm  text-center lg:text-start px-6 lg:px-0 lg:pr-6 text-[#7F9ED0]`}
             >
               Rewards users for participating in the network, creating an
               engaging and incentivized ecosystem.
@@ -136,16 +136,16 @@ export default function Section6() {
         {/* Card 6 */}
         <div className="flex mt-10 lg:mt-0">
           <div id="image">
-            <Image src={done} alt="Done" className="h-10 w-16"></Image>
+            <Image src={done} alt="Done" className="hidden sm:block h-10 w-16"></Image>
           </div>
           <div id="section6content" className="lg:ml-1">
             <h1
-              className={`${spaceGrotesk.className} text-[24px] px-4 lg:px-0 -ml-5 lg:-ml-0 -mt-2 font-semibold text-[#7F9ED0]`}
+              className={`${spaceGrotesk.className} text-[24px] px-4 lg:px-0  -mt-2 font-semibold text-[#7F9ED0]`}
             >
               Application Rewards and Redemption
             </h1>
             <p
-              className={`${poppins.className} text-sm ml-3 lg:ml-0 mt-2 pr-10 text-[#7F9ED0]`}
+              className={`${poppins.className} text-sm text-center lg:text-start px-6 lg:px-0 lg:pr-6 text-[#7F9ED0]`}
             >
               Rewards users for participating in the network, creating an
               engaging and incentivized ecosystem.

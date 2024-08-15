@@ -16,7 +16,7 @@ const poppins = Poppins({ weight: "600", subsets: ["latin"] });
 const poppinlight = Poppins({ weight: "400", subsets: ["latin"] });
 export default function Section2() {
   return (
-    <div className="h-screen lg:h-[120vh] w-screen bg-[#01091c] relative">
+    <div className="h-fit lg:h-[120vh] w-screen bg-[#01091c] relative">
       <div className="flex flex-col md:flex-row  items-center">
         {" "}
         {/* Upper Section */}
